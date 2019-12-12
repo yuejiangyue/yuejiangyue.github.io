@@ -1,268 +1,326 @@
 <!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="zxx">
+<head>
+    <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-    <title>商家物流监控系统</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="dashboard.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">导航栏</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">电子商务物流监控系统</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">更多</a></li>
-            <li><a href="#">我的消息</a></li>
-            <li><a href="#">退出</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">物流数据 <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">诊断建议</a></li>
-            <li><a href="#">订单评价</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">基本信息</a></li>
-            <li><a href="">会员申请</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><p>快捷入口</p></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-        <h2 class="page-header">指标达成</h2>
-           <div class="row">
-        <div class="col-lg-4">
-          <h3>到货时长</h3>
-          <p>90h</p>
-          <p>同行平均值：82h</p>
-          <p><a class="btn btn-primary" href="#" role="button">提升建议 &raquo;</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h3>当日揽收率</h3>
-          <p>90%</p>
-          <p>同行平均值：91%</p>
-          <p><a class="btn btn-primary" href="#" role="button">提升建议 &raquo;</a></p>
-        </div>
-      </div>
-      <br>
-      <br>
-          <h2 class="page-header">业务监控</h1>
-
-          <div class="row placeholders">
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="20" height="20" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>下单</h4>
-              <span class="text-muted">Something else</span>
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
+<body>
+    <div class="sidenav">
+		<div class="side_top">
+			<img src="images/t3.jpg" alt="news image" class="img-fluid navimg">
+			<h1> Eu ac iaculis ac nunc nisi lorem <br>vulputate lorem neque cubilia ac in <br>adipiscing in curae</h1>
+		</div>
+		<!-- header -->
+		<header>
+			<div class="container-fluid px-lg-5 ">
+				<nav class="mnu mx-auto">
+                    <label for="drop" class="toggle">Menu</label>
+                    <input type="checkbox" id="drop">
+						<ul class="menu">
+							<li class="active"><a href="index.html">Home</a></li>
+							 <li class="mt-sm-3"><a href="#about" class="scroll">About</a></li>
+							 <li class="mt-sm-3"><a href="#gallery" class="scroll">Gallery</a></li>
+							<li class="mt-sm-3"><a href="#services" class="scroll">Services</a></li>
+							<li class="mt-sm-3"><a href="#news" class="scroll">News</a></li>
+                            <li class="mt-sm-3"><a href="#contact" class="scroll">Contact</a></li>
+                        </ul>
+				</nav>
+			</div>
+		</header>
+    </div>
+    <div class="main" id="about">
+        <div class="banner-text-w3ls">
+            <div class="container">
+                <div class="mx-auto text-left">
+                    <h2>Eu ac iaculis ac nunc nisi lorem
+					<br>vulputate lorem neque cubilia ac in.</h2>
+					<p class="banp mt-5">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+					<a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#services" role="button">Learn More</a>
+                </div>
             </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="20" height="20" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>出库</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="20" height="20" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>揽收</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="20" height="20" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>妥投</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-          </div>
-
-          <h2 class="sub-header">明细表</h2>
-          <div class="table-responsive">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                </tr>
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>Integer</td>
-                  <td>nec</td>
-                  <td>odio</td>
-                  <td>Praesent</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>libero</td>
-                  <td>Sed</td>
-                  <td>cursus</td>
-                  <td>ante</td>
-                </tr>
-                <tr>
-                  <td>1,004</td>
-                  <td>dapibus</td>
-                  <td>diam</td>
-                  <td>Sed</td>
-                  <td>nisi</td>
-                </tr>
-                <tr>
-                  <td>1,005</td>
-                  <td>Nulla</td>
-                  <td>quis</td>
-                  <td>sem</td>
-                  <td>at</td>
-                </tr>
-                <tr>
-                  <td>1,006</td>
-                  <td>nibh</td>
-                  <td>elementum</td>
-                  <td>imperdiet</td>
-                  <td>Duis</td>
-                </tr>
-                <tr>
-                  <td>1,007</td>
-                  <td>sagittis</td>
-                  <td>ipsum</td>
-                  <td>Praesent</td>
-                  <td>mauris</td>
-                </tr>
-                <tr>
-                  <td>1,008</td>
-                  <td>Fusce</td>
-                  <td>nec</td>
-                  <td>tellus</td>
-                  <td>sed</td>
-                </tr>
-                <tr>
-                  <td>1,009</td>
-                  <td>augue</td>
-                  <td>semper</td>
-                  <td>porta</td>
-                  <td>Mauris</td>
-                </tr>
-                <tr>
-                  <td>1,010</td>
-                  <td>massa</td>
-                  <td>Vestibulum</td>
-                  <td>lacinia</td>
-                  <td>arcu</td>
-                </tr>
-                <tr>
-                  <td>1,011</td>
-                  <td>eget</td>
-                  <td>nulla</td>
-                  <td>Class</td>
-                  <td>aptent</td>
-                </tr>
-                <tr>
-                  <td>1,012</td>
-                  <td>taciti</td>
-                  <td>sociosqu</td>
-                  <td>ad</td>
-                  <td>litora</td>
-                </tr>
-                <tr>
-                  <td>1,013</td>
-                  <td>torquent</td>
-                  <td>per</td>
-                  <td>conubia</td>
-                  <td>nostra</td>
-                </tr>
-                <tr>
-                  <td>1,014</td>
-                  <td>per</td>
-                  <td>inceptos</td>
-                  <td>himenaeos</td>
-                  <td>Curabitur</td>
-                </tr>
-                <tr>
-                  <td>1,015</td>
-                  <td>sodales</td>
-                  <td>ligula</td>
-                  <td>in</td>
-                  <td>libero</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
         </div>
-      </div>
+		 <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container py-lg-5">
+           <h3 class="w3_head mb-5">My Projects</h3>
+			 <div class="row news-grids mt-lg-5 mt-4 text-center">
+                <div class="col-md-6 gal-img">
+                    <a href="#gal1"><img src="images/g2.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-6 proj-1 gal-img">
+                    <a href="#gal2"><img src="images/g3.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-6 mt-5 gal-img">
+                    <a href="#gal3"><img src="images/g4.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-6 mt-5 gal-img">
+                    <a href="#gal4"><img src="images/g5.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-6 mt-5 gal-img">
+                    <a href="#gal5"><img src="images/g6.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-6 mt-5 gal-img">
+                    <a href="#gal6"><img src="images/g7.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+        <!-- popup-->
+        <div id="gal1" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+
+        <!-- popup-->
+        <div id="gal2" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal3" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup3 -->
+        <!-- popup-->
+        <div id="gal4" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal5" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g6.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal6" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g7.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+    </section>
+    <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+<!-- services -->
+			<section class="slide-wrapper" id="services">
+                    <div class="services">
+					<h3 class="w3_head mb-5">Our Services</h3>
+					<div class="row service_w3top mt-5">
+                                <div class="col-lg-6">
+                                    <div class="d-flex services-box">
+                                        <div class="icon">
+                                            <span class="fa fa-pencil"></span>
+                                        </div>
+                                        <!-- .Icon ends here -->
+                                        <div class="service-content">
+                                            <h4>Inagittis Lacg</h4>
+                                            <p>
+                                                Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                            </p>
+                                        </div>
+                                        <!-- .Service-content ends here -->
+                                    </div>
+                                    <!-- .Services-box ends here -->
+
+                                    <div class="d-flex services-box">
+                                        <div class="icon">
+                                            <span class="fa fa-rocket"></span>
+                                        </div>
+                                        <!-- .Icon ends here -->
+                                        <div class="service-content">
+                                            <h4>Velitdipisc Inagittis</h4>
+                                            <p>
+                                                Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                            </p>
+                                        </div>
+                                        <!-- .Service-content ends here -->
+                                    </div>
+                                    <!-- .Services-box ends here -->
+                                </div>
+                                <!-- .Col ends here -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex services-box">
+                                        <div class="icon">
+                                            <span class="fa fa-laptop"></span>
+                                        </div>
+                                        <!-- .Icon ends here -->
+                                        <div class="service-content">
+                                            <h4>Vulputate Velitdipisc</h4>
+                                            <p>
+                                                Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                            </p>
+                                        </div>
+                                        <!-- .Service-content ends here -->
+                                    </div>
+                                    <!-- .Services-box ends here -->
+
+                                    <div class="d-flex services-box">
+                                        <div class="icon">
+                                            <span class="fa fa-paint-brush"></span>
+                                        </div>
+                                        <!-- .Icon ends here -->
+                                        <div class="service-content">
+                                            <h4>Sagittis Lacus</h4>
+                                            <p>
+                                                Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                            </p>
+                                        </div>
+                                        <!-- .Service-content ends here -->
+                                    </div>
+                                    <!-- .Services-box ends here -->
+                                </div>
+                                <!-- .Col ends here -->
+                            </div>
+                            <!-- .Row ends here -->
+                        <!-- .Container ends here -->
+                    </div>
+                    <!-- .Services ends here -->
+                </section>
+			<!-- //services -->
+
+		<!-- news -->
+       <div class="news" id="news">
+		<div class="text-left">
+			<h3 class="w3_head mb-5">Recent News</h3>
+		</div>
+			<div class="row news-grids">
+				<div class="col-lg-6 news-grids-left">
+					<div class="news_top">
+						<img src="images/g1.jpg" alt="news image" class="img-fluid">
+						<h4>Nulla pellentesque</h4>
+						<p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
+					</div>
+				</div>
+				<div class="col-lg-6 news-grids-middle">
+					<div class="news_top">
+						<img src="images/g8.jpg" alt="news image" class="img-fluid">
+						<h4>Nulla pellentesque</h4>
+						<p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
+					</div>
+				</div>
+				<div class="col-lg-6 news-grids-right">
+					<div class="news_top">
+						<img src="images/g9.jpg" alt="news image" class="img-fluid">
+						<h4>Nulla pellentesque</h4>
+						<p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
+					</div>
+				</div>
+				<div class="col-lg-6 news-grids-right">
+					<div class="news_top">
+						<img src="images/g10.jpg" alt="news image" class="img-fluid">
+						<h4>Nulla pellentesque</h4>
+						<p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
+					</div>
+				</div>
+				<div class="col-lg-6 news-grids-right">
+					<div class="news_top">
+						<img src="images/g11.jpg" alt="news image" class="img-fluid">
+						<h4>Nulla pellentesque</h4>
+						<p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
+					</div>
+				</div>
+				<div class="col-lg-6 news-grids-right">
+					<div class="news_top">
+						<img src="images/g12.jpg" alt="news image" class="img-fluid">
+						<h4>Nulla pellentesque</h4>
+						<p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
+					</div>
+				</div>
+			</div>
+			<a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#about" role="button">Learn More</a>			
+		</div>
+<!-- //news -->
+<!-- contact -->
+	 <section class="wedo" id="contact">
+			<h3 class="w3_head mb-5">Get In Touch </h3>
+		   <p class="banp mt-5"> Integer porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis.</p>
+		   <div class="row mt-4">
+			   <div class="col-lg-7 contact_grid_right">
+					<form action="#" method="post">
+						<div class="row contact_top">
+							<div class="col-sm-6">
+								<input type="text" name="Name" placeholder="Name" required="">
+							</div>
+							<div class="col-sm-6">
+								<input type="email" name="Email" placeholder="Email" required="">
+							</div>
+						</div>	
+							
+							<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required>Message...</textarea>
+							<input type="submit" class="btn" value="Send Message">
+					</form>
+				</div>
+				<div class="col-lg-5 contact_grid_left">
+				<h3 class="w3_head mb-5">Locate Us </h3>
+					<ul class="footer-bottom-list">
+							<li>
+								<span class="fa fa-map-marker"></span> 3481 Honey Street
+								<span> California, USA </span>
+								
+							</li>
+							<li>
+								<span class="fa fa-envelope"></span>
+								<a href="mailto:name@example.com"> mail@example.com</a>
+							</li>
+							<li>
+								<span class="fa fa-phone"></span> +143 367 436 2049 </li>
+							<li>
+								<span class="fa fa-fax"></span> +166 367 808 5055 </li>
+							<li>
+								<span class="fa fa-globe"></span>
+								<a href="#"> www.websitename.com</a>
+							</li>
+					</ul>
+				</div>
+			</div>
+			<div class="cpy-right text-left">
+				<p>Copyright &copy; 2019.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+
+				</p>
+			</div>
+	</section>
+	 <!-- //contact -->
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+</body>
 </html>
