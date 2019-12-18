@@ -1,0 +1,18 @@
+#form-group .default {
+    width: 200px;
+    height: 14px;
+    line-height: 14px;
+    color: #999;
+}
+
+#form-group .error {
+    height: 14px;
+    line-height: 14px;
+    color: #F00;
+}
+
+#form-group .success {
+    height: 14px;
+    line-height: 14px;
+    color: #096;
+}
